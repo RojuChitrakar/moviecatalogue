@@ -1,0 +1,61 @@
+#searchandselect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+#category{
+    margin-top: 20px;
+    margin-left: 300px;
+  
+}
+
+select{
+    width: 200px;
+    height: 40px;
+}
+#search{
+    width: 200px;
+    height: 35px;
+}
+#movie_list{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  
+    flex-wrap: wrap;
+    
+    
+}
+.movielist{
+     width: 150px;
+    padding:10px;
+   
+}
+.movie img{
+    height: 200px;
+    width: 250px;
+}
+
+.movie{
+
+    display:flex;
+    flex-direction: column;
+     text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    color:white;
+    background-color: rgb(216, 232, 75);
+    justify-content: center  ;
+    align-items: center;
+    color: black;
+}
+nav p:hover{
+background-color: bisque;
+border-radius: 5px;
+}
